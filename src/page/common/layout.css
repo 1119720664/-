@@ -1,0 +1,82 @@
+/*css reset*/
+html, body, div, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, cite, code, del, em, img, q, small, strong, sub, sup, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tr, td,input,select{margin:0; padding:0;line-height:normal; height:auto;font-family:Microsoft Yahei, Arial, Helvetica, sans-serif; font-size:14px; font-weight:normal;}
+header, footer, article, section, nav, menu, hgroup {display: block;clear: all; margin:0; padding:0; border:none;}
+body{ font: normal 12px/1.5 Microsoft Yahei, Arial, Helvetica, sans-serif; background:#f6f6f6;}
+table{border-collapse:collapse; border-spacing:0;}
+ol,ul{list-style:none;}
+img{border:0 none;display: block}
+input{padding:0; outline:none;}
+a{ text-decoration:none;color:#333;}
+.f_left{ float:left; display:inline;}
+.f_right{ float:right;}
+.t_left{ text-align:left;}
+.t_center{ text-align:center;}
+.t_right{ text-align:right;}
+.clear{ clear:both;}
+a{outline:none;}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+
+/*定宽布局*/
+.w{
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/*全局通用样式*/
+.hide{
+    display: none;
+}
+/* 超链接样式*/
+.link{
+    color: #999;
+    cursor: pointer;
+}
+
+.link:hover{
+    color:#e80012;
+}
+
+.link-text{
+    color:#999;
+    text-decoration: none;
+}
+
+/*btn*/
+  .btn{
+      display:inline-block;
+      padding:0 20px;
+      height: 40px;
+      line-height: 40px;
+      vertical-align: middle;
+      border:none;
+      background: #c60023;
+      font-size: 17px;
+      font-weight:bold;
+      color: #fff;
+      outline: none;
+      cursor:pointer;
+      text-decoration: none;
+  }
+
+  .btn-mini{
+      height: 25px;
+      line-height: 25px;
+      font-size: 12px;
+      padding:0 10px;
+  }
+
+  /*loading*/
+  .loading{
+      display: block;
+      /*background: url("../../image/icon/loading.git") no-repeat;*/
+      width: 65px;
+      height: 65px;
+      border:1px solid #ddd;
+      margin: 10px auto;
+      border-radius: 50%;
+      opacity: 0.6;
+  }

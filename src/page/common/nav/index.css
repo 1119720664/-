@@ -1,0 +1,30 @@
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height:30px
+}
+/*用户部分*/
+.user-info{
+    float:left;
+    height: 30px;
+    line-height:30px
+}
+.nav .user.login{
+    display: none;
+}
+
+.nav .user .link{
+    margin-right: 5px;
+}
+
+/*导航链接的部分*/
+.nav .nav-list{
+    float:right;
+    height: 30px;
+    line-height:30px
+}
+
+.nav .nav-list .nav-item{
+    display: inline-block;
+    margin-left: 5px;
+}
